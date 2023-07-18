@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cascade = 'Deteccao_com_webcam\Cascade\haarcascade_frontalface_default.xml'
+cascade = 'Cascade\haarcascade_frontalface_default.xml'
 
 detector_face = cv2.CascadeClassifier(cascade)
 
